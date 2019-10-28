@@ -2,9 +2,8 @@ using System;
 
 namespace CRS
 {
-    public class Semester
+    public class Semester : SCRElement
     {
-        int id {get; set;}
         String initials {get; set;} // Check if in stored "section list"
         DateTime dateStart {get; set;}
         DateTime dateEnd {get; set;}

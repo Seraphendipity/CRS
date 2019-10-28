@@ -2,10 +2,8 @@ using System;
 
 namespace CRS
 {
-    public class aCourse
+    public class aCourse : SCRElement
     {
-        int id {get; set;}
-        bool bActive {get; set;} // <!-- Only if course is removed from listing; time-independent, action-dependent -->
         int departmentId {get; set;}
         String code {get; set;}
         String title {get; set;}

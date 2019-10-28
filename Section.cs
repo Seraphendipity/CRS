@@ -2,10 +2,9 @@ using System;
 
 namespace CRS
 {
-    public class Section
+    public class Section : SCRElement
     {
                 
-        int id {get; set;}
         String code {get; set;}
         DateTime timeStart {get; set;}
         DateTime timeEnd {get; set;}

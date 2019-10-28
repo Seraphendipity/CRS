@@ -2,16 +2,8 @@ using System;
 
 namespace CRS
 {
-    public class  Student
+    public class  Student : SCRUser
     {
-        int id {get; set;}
-        bool bActive {get; set;}
-        String fName {get; set;}
-        String mName {get; set;}
-        String lName {get; set;}
-        String blazerName {get; set;}
-        DateTime dateBirth {get; set;}
-        int imageId {get; set;}
         DateTime dateEnroll {get; set;}
         int[] declaredMajorsIds {get; set;}
         int[] declaredMinorsIds {get; set;}

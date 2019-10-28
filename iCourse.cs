@@ -2,10 +2,8 @@ using System;
 
 namespace CRS
 {
-    public class iCourse
+    public class iCourse : SCRElement
     {
-        int id {get; set;} // <!--effectively CRN -->
-        bool bActive {get; set;} // <!-- Effectively time-dependent, usually action-independent -->
         int aCourseId {get; set;}
         int semesterId {get; set;}
         int sectionId {get; set;}
